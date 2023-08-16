@@ -1,5 +1,5 @@
-{application, example_site, [
-    {description, "Example Zotonic Site"},
+{application, demo, [
+    {description, "Zotonic Demo Site"},
     {vsn, "git"},
     {registered, []},
     {applications, [kernel, stdlib, zotonic_core]},
