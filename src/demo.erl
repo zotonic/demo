@@ -150,7 +150,7 @@ manage_schema(_Version, _Context) ->
                 <<"title">> => <<"De Braak">>,
                 <<"address_city">> => <<"Amstelveen">>,
                 <<"address_country">> => <<"nl">>,
-                <<"summary">> => <<"Autumn view of park “De Braak” in Amstelveen.">>
+                <<"summary">> => <<"Autumn view of park “De Braak” in Amstelveen."/utf8>>
             }},
 
             {page_video_2, "https://www.youtube.com/watch?v=Q9kgN9m_N2k", #{
